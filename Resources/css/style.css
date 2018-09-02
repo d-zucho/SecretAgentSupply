@@ -152,8 +152,22 @@ main {
     text-align: center;
 }
 
+        /* -----Info Section -----*/
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3em;
+}
 
 
+.location-hours {
+    color: white;
+    background-color: black;
+    width: 35%;
+    margin-bottom: 4em;
+    padding: 1rem
+}
 
 
 
