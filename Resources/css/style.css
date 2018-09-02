@@ -21,8 +21,7 @@ body {
 
 
 .top-banner {
-    display: flex;
-    
+    display: flex; 
 }
 
 .top-banner-logo {
@@ -35,8 +34,7 @@ body {
 .top-banner-logo img {
     height: 1.5rem;
     padding-left: 0.5rem;
-    padding-right: 1rem;
-    
+    padding-right: 1rem;  
 }
 
 .comp-name {
@@ -57,8 +55,6 @@ body {
     margin: 0 auto;
 }
 
-
-
 .new-arrival {
     display: inline-block;
     background: black;
@@ -66,8 +62,6 @@ body {
     width: 17rem;
     margin-top: 9rem;  
 }
-
-
 
 .new-arrival span {
     font-size: 1rem;
@@ -79,8 +73,6 @@ h2 {
     font-size: 2rem;
     font-weight: bold;
     margin-top: 0.25rem;
-   
-    
 }
 
 
@@ -98,11 +90,7 @@ h2 {
     justify-content: space-between;
     max-width: 960px;
     margin: 0 auto;
-    
-  
 }
-
-
 
         /*-----Main Section-----*/
 
@@ -114,15 +102,12 @@ main {
 
 .main-container {
     max-width: 960px;
-    margin: 0 auto;
-    
+    margin: 0 auto;  
 }
 
 .product-list {
     display: flex;
-/*    border: 2px dashed;*/
     justify-content: space-between
-
 }
 
 .product {
@@ -132,15 +117,13 @@ main {
     justify-content: center;
     width: 30%;
     margin-top: 3rem;
-    align-items: center;
-    
+    align-items: center;  
 }
 
 .product img {
     height: 9rem;
     width: 8rem;
-    padding: 2rem; 
-    
+    padding: 2rem;    
 }
 
 
@@ -160,29 +143,36 @@ main {
     margin-top: 3em;
 }
 
+#location-hours {
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+}
 
 .location-hours {
     color: white;
     background-color: black;
-    width: 35%;
-    margin-bottom: 4em;
-    padding: 1rem
+    padding: 1rem 1rem 1rem 2rem;
 }
 
+.details {
+    margin-bottom: 4rem;
+    line-height: 1.5;
+}
 
 
 
         /*----- Footer -----*/
 
 footer {
-    padding: 2.5rem 0;
+    padding: 2.5rem;
     width: 100%;
-
+    padding-left: 0;
+    margin: 2rem 0;
 }
 
 footer .container {
     max-width: 960px;
-    margin: 0 auto;
-    
+    margin: 0 auto;   
 }
 
