@@ -177,3 +177,9 @@ footer .container {
 }
 
 
+/*-------Query -Hide Mobile Nav-------*/
+
+.tablet-nav {
+    display: none;
+}
+
