@@ -39,9 +39,52 @@
 
 
 @media only screen and (max-width: 470px) {
+
+    .header-background {
+        height: 15rem;
+    }
+
+    .new-arrival {
+        padding-top: 1rem;
+        padding-left: 2rem; 
+        width: 100%;
+        margin-top: 10rem;
+    }
+
     .new-arrival span {
         font-size: 0.77rem;
         font-family: Helvetica;
         font-weight: bold;
+        padding-top: 1rem;
+    }
+
+    .new-arrival h2 {
+        font-size: 1rem;
+        font-weight: bold;
+    }
+
+    .main-container {
+        max-width: 100%;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .product-list {
+        flex-direction: column;
+        width: 98%;
+       
+    }
+
+    .product {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .info {
+        flex-direction: column;
+    }
+
+    #location-hours {
+        width: 100%;
     }
 }
