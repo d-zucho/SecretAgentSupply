@@ -179,7 +179,9 @@ footer .container {
 
 /*-------Query -Hide Mobile Nav-------*/
 
+@media only screen and (min-width: 1024px) {
 .tablet-nav {
     display: none;
+    }
 }
 
